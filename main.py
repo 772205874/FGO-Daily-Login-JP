@@ -31,7 +31,7 @@ coloredlogs.install(fmt='%(asctime)s %(name)s %(levelname)s %(message)s')
 def get_latest_verCode():
     endpoint = ""
 
-    if fate_region == "NA":
+    if fate_region == "JP":
         endpoint += "https://raw.githubusercontent.com/O-Isaac/FGO-VerCode-extractor/NA/VerCode.json"
     else:
         endpoint += "https://raw.githubusercontent.com/O-Isaac/FGO-VerCode-extractor/JP/VerCode.json"
